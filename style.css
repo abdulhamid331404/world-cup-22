@@ -1,0 +1,319 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 5vw;
+    font-weight: 700;
+}
+
+/* header part style */
+.header-part {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    padding: 20px;
+    height: 600px;
+    transition: background-color, width 8s;
+}
+
+.header-part:hover {
+    width: 97%;
+    background-color: darkslategrey;
+}
+
+.top-part {
+    width: 55%;
+    color: white;
+    padding: 25px;
+}
+
+.top-image {
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+/* this is button style */
+.watch-btn {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #DD0000;
+    color: white;
+    font-size: 18px;
+}
+
+/* start main part style */
+.container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ancor-part {
+    width: 25%;
+    background-color: black;
+    height: 170px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* all button styles  */
+.upcomint-btn {
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+}
+
+.group-btn {
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.blog-btn {
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #DD0000;
+    color: white;
+}
+
+.blog-btn a {
+    color: white;
+}
+
+.link-btn a {
+    text-decoration: none;
+}
+
+.player-info-btn {
+    height: 30px;
+    width: 95px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.view-btn {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #DD0000;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 45%;
+    visibility: hidden;
+}
+
+.players-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.players-image {
+    width: 100%;
+}
+
+.player-card {
+    border: 1px solid #d1cece;
+    border-radius: 10px;
+}
+
+.player-info {
+    margin-left: 2px;
+}
+
+.comment-dots {
+    margin-left: 35px;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.footer-border {
+    width: 75%;
+    border-bottom: 2px solid gray;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.footer-part {
+    margin-top: 50px;
+    height: 250px;
+    background-color: black;
+    text-align: center;
+}
+
+.link-about a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.link-icon {
+    color: blue;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+/* upcomint matchs style */
+.match-sedule {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+}
+
+.match-middle-text {
+    text-align: center;
+}
+
+.match-detils {
+    text-align: center;
+}
+
+/* media query part */
+/* smaller device responsive */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .header-part {
+        display: block;
+        height: 690px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .top-details {
+        text-align: center;
+        width: 90%;
+    }
+
+    .watch-btn {
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #DD0000;
+        color: white;
+        font-size: 15px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .ancor-part {
+        display: block;
+        background-color: white;
+    }
+
+    .upcomint-btn {
+        margin-top: 10px;
+        border-radius: 5px;
+        width: 200px;
+    }
+
+    .group-btn {
+        border-radius: 5px;
+        width: 150px;
+        margin-left: 23px;
+    }
+
+    .blog-btn {
+        border-radius: 5px;
+        width: 150px;
+        margin-left: 23px;
+    }
+
+    .players-info {
+        margin-top: 50px;
+    }
+
+    .header-part {
+        margin-bottom: 5px;
+    }
+
+    .players-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .link-about a {
+        display: block;
+    }
+
+    .footer-part {
+        height: 500px;
+    }
+}
+
+/* tablet responsive */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .watch-btn {
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #DD0000;
+        color: white;
+        font-size: 10px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .ancor-part {
+        background-color: white;
+        display: flex;
+    }
+
+    .link-btn {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+    }
+
+    .upcomint-btn {
+        margin-top: 10px;
+        border-radius: 5px;
+        width: 100px;
+    }
+
+    .group-btn {
+        border-radius: 5px;
+        width: 100px;
+    }
+
+    .blog-btn {
+        border-radius: 5px;
+        width: 100px;
+    }
+
+    .header-part {
+        margin-bottom: 5px;
+    }
+
+    .ancor-part {
+        margin-bottom: 25px;
+        height: 30px;
+    }
+
+    .players-info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .view-btn {
+        visibility: visible;
+    }
+}
